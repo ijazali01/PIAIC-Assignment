@@ -1,0 +1,41 @@
+<html>
+    <head> <h1>Please open console tab to see result</h1>
+        <script src="./task4.js"></script>
+    </head>
+    <body>
+        <p><h3>Programe which i scripted in javascript</h3> <br> <br>
+                var totalMarks = 300;<br>
+                var num1 = parseInt(prompt("Obtained Marks"));<br>
+                var num2 = parseInt(prompt("Obtained Marks"));<br>
+                var num3 = parseInt(prompt("Obtained Marks"));<br>
+                var obtainedMarks = (num1 + num2 + num3);<br>
+                var marks_percentage = (obtainedMarks/totalMarks*100);<br>
+                if(marks_percentage > 80 && marks_percentage <= 100){<br>
+                    console.log("Total Marks: "+ totalMarks);<br>
+                    console.log("Obtained: " + obtainedMarks);<br>
+                    console.log("Percentage: " + marks_percentage+"%");<br>
+                    console.log("Grade:  A one");<br>
+                    console.log("Remarks: Excelent");<br>
+                } else if(marks_percentage > 70 && marks_percentage <= 80){<br>
+                    console.log("Total Marks: "+ totalMarks);<br>
+                    console.log("Obtained: " + obtainedMarks);<br>
+                    console.log("Percentage: " + marks_percentage+"%");<br>
+                    console.log("Grade: A");<br>
+                    console.log("Remarks: Good");<br>
+                } else if(marks_percentage > 60 && marks_percentage <= 70){<br>
+                    console.log("Total Marks: "+ totalMarks);<br>
+                    console.log("Obtained: " + obtainedMarks);<br>
+                    console.log("Percentage: " + marks_percentage+"%");<br>
+                    console.log("Grade:  B");<br>
+                    console.log("Remarks: You need to improve");<br>
+                }else  {<br>
+                    console.log("Total Marks: "+ totalMarks);<br>
+    console.log("Obtained: " + obtainedMarks);<br>
+    console.log("Percentage: " + marks_percentage+"%");<br>
+    console.log("Grade:  Fail");<br>
+    console.log("Remarks: Sorry");<br>
+                }
+        </p>
+
+    </body>
+</html>

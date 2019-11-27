@@ -1,0 +1,14 @@
+var  a = 3;
+var b = 5;
+var c = (a-b);
+var d = (a*b);
+var e = (a/b);
+var f =(a%b);
+alert(c);
+alert(d);
+alert(e);
+alert(f);
+alert("Subtraction" +c);
+alert("Multiplication" +d);
+alert("Division" +e);
+alert("modulus" +f);
