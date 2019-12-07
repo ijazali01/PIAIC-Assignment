@@ -1,0 +1,10 @@
+var colors = ["RED","GREEN","YELLOW"];
+colors[0] = "RED";
+colors[1] = "GREEN";
+colors[2] = "YELLOW";
+colors[3] = "BLUE";
+colors[4] = "BLACK";
+console.log(colors);
+colors.pop(0);
+colors.pop(1);
+console.log(colors);
