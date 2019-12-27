@@ -1,0 +1,10 @@
+var  a = 10;
+alert("Value of a is "+a);
+var b = ++a;
+alert("Value of ++a is "+b);
+var c = a++;
+alert("Value of a++ is "+c);
+var d = --a;
+alert("Value of --a is "+d);
+var e = a--;
+alert("Value of a-- is "+e);

@@ -1,8 +1,7 @@
-var colors = [];
-colors[0] = "RED";
-colors[1] = "GREEN";
-colors[2] = "YELLOW";
+var colors = ["YELLOW", "GREEN", "RED"];
 console.log(colors);
 colors.unshift("BLUE");
 colors.unshift("BLACK");
+console.log(colors);
+colors.pop();
 console.log(colors);
